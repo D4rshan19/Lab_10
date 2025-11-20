@@ -19,8 +19,16 @@ public class TicTacToe {
     }
 
     //Helper methods go here
-    private static void clearBoard() {
 
+    //Clearing Board
+    private static void clearBoard() {
+        for (int r = 0; r < board.length; r++) {
+            for (int c = 0; c < board[0].length; c++) {
+                board[r][c] = "-";
+            }
+        }
+        //Printing a new line for the start of the next row
+        System.out.println();
     }
 
     //Displays Board
@@ -36,6 +44,8 @@ public class TicTacToe {
 
     //Checks if move is valid
     private static boolean isValidMove(int row, int col) {
+        if ()
+
 
     }
 
