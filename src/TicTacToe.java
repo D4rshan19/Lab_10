@@ -6,7 +6,7 @@ public class TicTacToe {
     public static void main(String[] args) {
         //Game simulation happens here
         Scanner scan = new Scanner(System.in);
-        String Player1 = "X";
+        String player1 = "X";
         String player2 = "O";
         int p1row;
         int p1col;
@@ -44,9 +44,12 @@ public class TicTacToe {
 
     //Checks if move is valid
     private static boolean isValidMove(int row, int col) {
-        if ()
-
-
+        if (board[row][col].equals("-")) {
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 
     //Checks to see if you won
@@ -57,11 +60,16 @@ public class TicTacToe {
     //Checks to see if you won in a column
     private static boolean isColWin(String player) {
 
+
     }
 
     //Checks to see if you won in a row
     private static boolean isRowWin(String player) {
-
+        for (int r = 0; r < board.length; r++) {
+            for (int c = 0; c < board[0].length; c++) {
+                if (r = player1)
+            }
+        }
     }
 
     //Checks to see if you won diagonally
