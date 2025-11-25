@@ -16,6 +16,8 @@ public class TicTacToe {
         boolean player2Valid = false;
         boolean gameOver = false;
         boolean playAgain = false;
+
+
     }
 
     //Helper methods go here
