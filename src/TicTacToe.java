@@ -28,6 +28,8 @@ public class TicTacToe {
             //This do-while loop keeps running while the game is still going
             //It stops once a winner or tie occurs
             do {
+                displayBoard();
+                clearBoard();
 
 
                 //Player 1 - It loops until a valid move is made
@@ -44,10 +46,10 @@ public class TicTacToe {
                     } while (player2Valid);
 
 
-            } while ();
+            } while (!gameOver);
 
 
-        } while (!gameOver);
+        } while (!playAgain);
 
     }
 
